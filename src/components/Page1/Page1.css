@@ -1,0 +1,623 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: 'TT Norms Pro', sans-serif;
+                                                
+
+
+}
+
+body{
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:669px){
+
+        /*------------------------------------------NAV--------------------------------------------*/
+
+    .cajaespacio{
+        margin-top: 90px;
+    }
+
+    nav{
+
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 5px 15px rgba(29, 29, 29, 0.062);
+        width: 100%;
+        height: 80px;
+        padding: 0 10px;
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    
+        display: flex;
+        justify-content:baseline;
+    
+        align-items: center;
+    }
+
+    nav ul{
+
+        display: flex;
+
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        font-size: 1.3em;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    nav h1{
+        margin: 10px 10px 10px 20px;
+        text-align: center;
+        font-size: 1.7em;
+        font-weight:500
+    }
+
+    nav ul i{
+
+        margin-left: 12px;
+    }
+
+
+    nav ul .escudo{
+        display: flex;
+
+        height: 19px;
+        width: 18px;
+
+        margin-left: 12px;
+    }
+
+    nav ul .escudo img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    section .fila1{
+        display: flex;
+    }
+
+    section .fila1 .cajatextos{
+        margin-left: 13px;
+        width: 50%;
+    }
+
+
+    section .fila1 .cajasicon{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-right: 20px;
+        object-fit: cover;
+    }
+
+    section .fila1 .cajasicon img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /*------------------------------------------FILA 1--------------------------------------------*/
+
+    section .slide{ 
+        margin-top: 80px;
+        width: 100%;
+    
+    }
+
+    section .slide .hijo{
+        background-color: rgba(219, 219, 219, 0.63);
+        height: 5px;
+        width: 45px;
+        border-radius: 15%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    section .fila1{
+        display: flex;
+    }
+
+    section .fila1 .cajatextos{
+        margin-left: 13px;
+        width: 50%;
+        height: 10px;
+    }
+
+    section .fila1 .logo{
+        margin-top: 10px;
+        display: flex;
+
+        height: 15px;
+        width: 15px;
+    }
+
+    section .fila1 .logo .titulo{
+        width: 50%;
+    }
+
+    section .fila1 .logo .titulo h3{
+
+        width: 100px;
+        margin-left: 10px;
+
+        font-size: 1em;
+    }
+
+
+    section .fila1 .cajasicon{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-right: 20px;
+        object-fit: cover;
+    }
+
+    section .fila1 .cajasicon .caja1{
+        margin-right: 20px;
+        margin-top: 12px;
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    section .fila1 .cajasicon .caja2{
+        margin-right: 10px;
+        margin-top: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    section .fila1 .cajasicon img{
+        width: 100%;
+        height: 100%;
+    }
+
+    section .titulo2{
+
+        margin: 0px 0px 0px 18px;
+    }
+
+    section .titulo2 h1{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+
+
+        /*------------------------------------------FILA 2--------------------------------------------*/
+
+        section .fila2{
+            display: flex;
+        }
+        
+        section .fila2 .mensaje{
+        
+            margin-left: 14px;
+            margin-right: 20px;
+        
+            height: 24px;
+            width: 15px;
+        }
+        
+        section .fila2 .mensaje img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        section .fila2 h4{
+            margin: 0px 0px 0px 0px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        section .fila2 p{
+            margin: 0px 0px 3px;
+            font-size: 0.9em;
+            font-weight: 700;
+            color: rgb(59, 59, 59);
+        }
+
+        /*------------------------------------------FILA 3--------------------------------------------*/
+
+        section .fila3{
+            display: flex;
+        }
+        
+        section .fila3 .mensaje{
+        
+            margin-left: 12px;
+            margin-right: 20px;
+        
+            height: 16px;
+            width: 18px;
+        }
+        
+        section .fila3 .mensaje img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        section .fila3 .cajitatextual{
+
+            width: 60%;
+
+            display: flex;
+
+        }
+
+
+        section .fila3 .flecha{
+            display: flex;
+            width: 40%;
+
+
+        }
+
+
+        section .fila3 .flecha{
+            justify-content: flex-end;
+            margin-right: 15px;
+        }
+        
+        section h4{
+            margin: 0px 10px 0px 48px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        section .fila3 p{
+            margin: 0px 0px 3px;
+            font-size: 0.9em;
+            font-weight: 700;
+            color: rgb(59, 59, 59);
+        }        
+
+
+
+        /*------------------------------------------FILA 4--------------------------------------------*/
+
+        section .fila4{
+            display: flex;
+        }
+        
+        section .fila4 .mensaje{
+        
+            margin-left: 12px;
+            margin-right: 20px;
+        
+            height: 18px;
+            width: 13px;
+        }
+        
+        section .fila4 .mensaje img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        section .fila4 .cajitatextual{
+
+            width: 60%;
+            display: flex;
+
+        }
+
+
+        section .fila4 .flecha{
+            display: flex;
+            width: 40%;
+
+
+        }
+
+
+        section .fila4 .flecha{
+            justify-content: flex-end;
+            margin-right: 15px;
+        }
+        
+        section .fila4 h4{
+            margin: 0px 0px 0px 50px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        section .fila4 p{
+            margin: 0px 0px 3px;
+            font-size: 0.9em;
+            font-weight: 700;
+            color: rgb(59, 59, 59);
+        }        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        section .cajitatextual2 .mensaje2{
+            display: flex;
+        
+            margin-left: 8px;
+            margin-right: 20px;
+        
+            height: 22px;
+            width: 22px;
+            margin-top: 10px;
+        }
+
+        section .cajitatextual2 .mensaje2 h2{
+            font-size: 1.1em;
+            width: 180px;
+            margin-left: 10px;
+        }
+
+
+        section .cajitatextual2 .mensaje2 img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .cajitatextual2{
+
+            width: 100%;
+            display: flex;
+
+        }
+
+
+        section .fila4 .flecha2{
+            display: flex;
+            width: 40%;
+
+
+        }
+
+
+        section .fila4 .flecha2{
+            justify-content: flex-end;
+            margin-right: 10px;
+        }
+        
+        section .fila4 h4{
+            margin: 0px 0px 0px 50px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        section .fila4 p{
+            margin: 0px 0px 3px;
+            font-size: 0.9em;
+            font-weight: 700;
+            color: rgb(59, 59, 59);
+        }        
+
+
+
+        section .parrafo{
+
+
+
+            display: flex;
+            margin-left: 40px;
+            align-items: center;
+        }
+
+        section .contendor{
+            width: 100%;
+            display: flex;
+        }
+
+        section .contendor .imagen{
+        }
+
+
+
+        section .imagen .puntos{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: flex-end;
+            
+
+
+            width: 20px;
+            height: 10px;
+        }
+
+        section .contendor .imagen{
+
+            margin-right: 10px;
+
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+        }
+
+        section .imagen .puntos img{
+            
+
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .titulolinea2{
+            width: 100vh !important;
+            display: flex;
+        }
+        .imagen{
+            position: sticky;
+            left: 10vh;
+        }
+        .titulolinea2 h2{
+            width: 37vh !important;
+        }
+
+
+        /*------------------------------------------FILA 5--------------------------------------------*/
+
+
+        section .fila5{
+            display: flex;
+        }
+        
+        section .fila5 .mensaje{
+        
+            margin-left: 12px;
+            margin-right: 20px;
+        
+            height: 16px;
+            width: 18px;
+        }
+        
+        section .fila5 .mensaje img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        section .fila5 .cajitatextual{
+
+            width: 50%;
+
+            display: flex;
+
+        }
+
+        section .fila5 .contendor{
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+        }
+
+
+        section .fila5 .flecha{
+            display: flex;
+            width: 40px;
+            height: 40px;
+
+            justify-content: flex-end;
+            margin-right: 15px;
+
+
+        }
+
+        
+
+
+        section .fila5 .flecha img{
+
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+
+        }
+        
+        section h4{
+            margin: 0px 10px 0px 48px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        section .fila5 p{
+            margin: 0px 0px 3px;
+            font-size: 0.9em;
+            font-weight: 700;
+            color: rgb(59, 59, 59);
+        }        
+
+
+
+
+        /*------------------------------------------BOTON--------------------------------------------*/
+
+
+
+
+        section .cajaboton{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 10px;
+            position: absolute;
+            top: 80vh;
+        }
+    
+        section .cajaboton .boton{
+            align-items: center;
+    
+            width: 80%;
+    
+            padding: 7px 7px 7px 7px;
+            background-color: #FF3008;
+            border-radius: 20px;
+            display: flex;
+    
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        section .cajaboton .boton h1{
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: white;
+        }
+
+
+}
+
+
+@media screen and (max-width:375px){
+
+
+
+    nav h1{
+        margin: 10px 10px 10px 20px;
+        text-align: center;
+        font-size: 1.3em;
+        font-weight:500
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+    nav h1{
+        margin: 5px 5px 5px 10px;
+        text-align: center;
+        font-size: 0.9em;
+        font-weight:500
+    }
+}

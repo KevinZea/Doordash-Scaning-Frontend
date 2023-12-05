@@ -1,0 +1,518 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+
+@media screen and (max-width:669px) {
+
+    /*------------------------------------------NAV--------------------------------------------*/
+    .tu-nav {
+        /* Cambié la clase */
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 5px 15px rgba(29, 29, 29, 0.062);
+        width: 100%;
+        height: 80px;
+        padding: 0 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    .tu-nav ul {
+        /* Cambié la clase */
+        display: flex;
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        font-size: 1.3em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tu-nav h1 {
+        /* Cambié la clase */
+        color: #00000000;
+        margin: 10px 10px 10px 20px;
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 500
+    }
+
+    .tu-nav ul .tu-escudo {
+        display: flex;
+
+        height: 19px;
+        width: 1spx;
+
+        margin-left: 12px;
+    }
+
+    .tu-nav ul .tu-escudo img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-nav ul i {
+        margin-left: 12px;
+    }
+
+    /*------------------------------------------MAPA--------------------------------------------*/
+    .tu-mapa img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-mapa {
+        position: relative;
+        width: 100%;
+        height: 210px;
+    }
+
+    .tu-mapa .tu-caja1 {
+        /* Cambié la clase */
+        position: absolute;
+        width: 110px;
+        height: 60px;
+        top: 90px;
+        right: 15px;
+        background-color: rgba(255, 255, 255, 0.993);
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px rgba(29, 29, 29, 0.062);
+    }
+
+    .tu-mapa .tu-caja1 h2 {
+        /* Cambié la clase */
+        margin: 4px 0px 0px 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: #44afac;
+    }
+
+    .tu-mapa .tu-caja1 p {
+        /* Cambié la clase */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: rgb(66, 66, 66);
+        font-size: 0.9em;
+    }
+
+    .tu-mapa .tu-caja2 {
+        /* Cambié la clase */
+        position: absolute;
+        width: 110px;
+        height: 60px;
+        top: 90px;
+        right: 141px;
+        background-color: rgba(255, 255, 255, 0.993);
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px rgba(29, 29, 29, 0.062);
+    }
+
+    .tu-mapa .tu-caja2 h2 {
+        /* Cambié la clase */
+        margin: 4px 0px 0px 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: #44afac;
+    }
+
+    .tu-mapa .tu-caja2 p {
+        /* Cambié la clase */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: rgb(66, 66, 66);
+        font-size: 0.9em;
+    }
+
+    .tu-section .tu-slide {
+        /* Cambié la clase */
+        width: 100%;
+    }
+
+    .tu-section .tu-slide .tu-hijo {
+        /* Cambié la clase */
+        background-color: rgba(219, 219, 219, 0.63);
+        height: 5px;
+        width: 45px;
+        border-radius: 15%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .tu-section .tu-linea {
+        /* Cambié la clase */
+        color: rgb(100, 100, 100);
+        width: 100%;
+        margin: 11px 0px 11px 0px;
+    }
+
+    /*------------------------------------------FILA 1--------------------------------------------*/
+    .tu-section .tu-fila1 {
+        /* Cambié la clase */
+        display: flex;
+    }
+
+    .tu-section .tu-fila1 .tu-cajatextos {
+        /* Cambié la clase */
+        margin-left: 13px;
+        width: 50%;
+    }
+
+    .tu-section .tu-fila1 .tu-cajasicon {
+        /* Cambié la clase */
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-right: 20px;
+        object-fit: cover;
+    }
+
+    .tu-section .tu-fila1 .tu-cajasicon img {
+        /* Cambié la clase */
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-section .tu-fila1 h3 {
+        /* Cambié la clase */
+        font-size: 1em;
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin: 0;
+    }
+
+    .tu-section .tu-fila1 h1 {
+        /* Cambié la clase */
+        font-size: 1.7em;
+        font-weight: 800;
+        color: rgb(17, 17, 17);
+        margin: 0;
+    }
+
+    .tu-section .tu-fila1 h2 {
+        /* Cambié la clase */
+        font-size: 1em;
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin: 0;
+    }
+
+    .tu-section .tu-fila1 .tu-caja1 {
+        /* Cambié la clase */
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .tu-section .tu-fila1 .tu-caja2 {
+        /* Cambié la clase */
+        width: 40px;
+        height: 40px;
+    }
+
+    .tu-section .tu-boton {
+        /* Cambié la clase */
+        height: 40px;
+    }
+
+    .tu-section .tu-dessert {
+        /* Cambié la clase */
+        display: flex;
+        width: 100px;
+        padding: 7px 7px 7px 7px;
+        margin: 10px 0px 0px 20px;
+        background-color: #5ddfe821;
+        border-radius: 8px;
+    }
+
+    .tu-section .tu-dessert i {
+        /* Cambié la clase */
+        align-items: center;
+        font-size: 1em;
+        color: #2CCEC6;
+        margin-right: 5px;
+        margin-left: 4px;
+    }
+
+    .tu-section .tu-dessert h5 {
+        /* Cambié la clase */
+        margin: 0px;
+        font-size: 1em;
+        color: #00968B;
+    }
+
+    /*------------------------------------------FILA 2--------------------------------------------*/
+    .tu-section .tu-fila2 {
+        /* Cambié la clase */
+        display: flex;
+    }
+
+    .tu-section .tu-fila2 .tu-casa {
+        /* Cambié la clase */
+        height: 26px;
+        width: 26px;
+        margin-left: 14px;
+        margin-right: 20px;
+    }
+
+    .tu-section .tu-fila2 .tu-casa img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-section .tu-fila2 h2 {
+        /* Cambié la clase */
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    .tu-section .tu-fila2 p {
+        /* Cambié la clase */
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+    .tu-section .tu-dessert2 {
+        /* Cambié la clase */
+        display: flex;
+        width: 100px;
+        padding: 8px 160px 8px 15px;
+        margin: 10px 0px 0px 80px;
+        background-color: #08080821;
+        border-radius: 28px;
+    }
+
+    .tu-section .tu-dessert2 i {
+        /* Cambié la clase */
+        margin-top: 2px;
+        align-items: center;
+        font-size: 1.1em;
+        color: #000000;
+        margin-right: 5px;
+        margin-left: 14px;
+    }
+
+    .tu-section .tu-dessert2 h5 {
+        /* Cambié la clase */
+        margin: 0px;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    /*------------------------------------------FILA 3--------------------------------------------*/
+    .tu-section .tu-fila3 {
+        /* Cambié la clase */
+        display: flex;
+    }
+
+    .tu-section .tu-fila3 .tu-mensaje {
+        /* Cambié la clase */
+        margin-left: 14px;
+        margin-right: 20px;
+        height: 26px;
+        width: 28px;
+    }
+
+    .tu-section .tu-fila3 .tu-mensaje img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-section .tu-fila3 h4 {
+        /* Cambié la clase */
+        margin: 0px 8px 0px 0px;
+        font-size: 1em;
+    }
+
+    .tu-section .tu-fila3 p {
+        /* Cambié la clase */
+        margin: 0px 0px 3px;
+        font-size: 0.9em;
+    }
+
+    /*------------------------------------------FILA 4--------------------------------------------*/
+    .tu-section .tu-fila4 {
+        /* Cambié la clase */
+        display: block;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo1 i {
+        /* Cambié la clase */
+        display: inline-block;
+        justify-content: flex-end;
+        /* Otra opción puede ser 'end' */
+        background-color: solid red;
+        /* Verificar esta línea */
+    }
+
+    .tu-section .tu-fila4 .tu-mensajelargo {
+        /* Cambié la clase */
+        margin-left: 14px;
+        margin-right: 20px;
+        height: 27px;
+        width: 20px;
+    }
+
+    .tu-section .tu-fila4 .tu-mensajelargo img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-section .tu-fila4 h4 {
+        /* Cambié la clase */
+        margin: 0px;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo1 {
+        /* Cambié la clase */
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo1 .tu-prueba {
+        /* Cambié la clase */
+        width: 50%;
+        display: flex;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo1 h4 {
+        /* Cambié la clase */
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo1 .tu-flecha {
+        width: 50%;
+        justify-content: flex-end;
+        display: flex;
+        margin-right: 20px;
+    }
+
+    /* Agrega las clases necesarias si las hay */
+
+    .tu-section .tu-fila4 .tu-titulo1 i {
+        /* Cambié la clase */
+        display: inline-block;
+        justify-content: end;
+        background-color: solid red;
+    }
+
+    .tu-section .tu-fila4 .tu-titulo2 {
+        /* Cambié la clase */
+        display: flex;
+    }
+
+    .tu-section .tu-fila4 .tu-circulo {
+        /* Cambié la clase */
+        margin-left: 14px;
+        margin-right: 20px;
+        height: 25px;
+        width: 25px;
+    }
+
+    .tu-section .tu-fila4 .tu-circulo img {
+        /* Cambié la clase */
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tu-section .tu-dessert3 {
+        /* Cambié la clase */
+        display: flex;
+        width: 100px;
+        padding: 7px 7px 7px 7px;
+        margin: 0px 0px 0px 59px;
+        background-color: #5ddfe821;
+        border-radius: 8px;
+    }
+
+    .tu-section .tu-dessert3 i {
+        /* Cambié la clase */
+        align-items: center;
+        font-size: 1em;
+        color: #2CCEC6;
+        margin-right: 5px;
+        margin-left: 4px;
+    }
+
+    .tu-section .tu-dessert3 h5 {
+        /* Cambié la clase */
+        margin: 0px;
+        font-size: 1em;
+        color: #00968B;
+    }
+
+    /*------------------------------------------ BOTON --------------------------------------------*/
+
+    .tu-section .tu-cajaboton {
+        /* Cambié la clase */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .tu-section .tu-cajaboton .tu-boton {
+        /* Cambié la clase */
+        align-items: center;
+        width: 80%;
+        padding: 7px 7px 7px 7px;
+        background-color: #FF3008;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tu-section .tu-cajaboton .tu-boton h1 {
+        /* Cambié la clase */
+        font-size: 1.2em;
+        margin-top: 5px;
+        color: white;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tu-nav h1 {
+        margin: 10px 10px 10px 20px;
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .tu-nav h1 {
+        margin: 5px 5px 5px 10px;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+    }
+}
